@@ -11,7 +11,8 @@ class App extends Component {
                         <img src={logo} className="App-logo" alt="logo"/>
                     </header>
                     <div className="angular">
-                        <zoom-button ref="elem" id="customElement"></zoom-button>
+                        <custom-button ref="elem" id="hola"></custom-button>
+                        <custom-button ref="elem" id="hola2"></custom-button>
                     </div>
                 </div>
             </div>
